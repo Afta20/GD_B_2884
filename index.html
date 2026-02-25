@@ -7,6 +7,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="loader">
+        <div class="sukuna-container">
+            <div class="eyes-group">
+                <div class="eye main-eye left"></div>
+                <div class="eye main-eye right"></div>
+            </div>
+            <div class="eyes-group-small">
+                <div class="eye small-eye left-s"></div>
+                <div class="eye small-eye right-s"></div>
+            </div>
+        </div>
+    </div>
+    
     <header>
     <div class="header-left-side">
         <h1>Afreeza<br />Prananta</h1>
@@ -33,6 +46,14 @@
         <img src="afreeza.jpg" alt="Afreeza Prananta" />
     </div>
 </header>
+<script>
+        window.addEventListener("load", function() {
+            const loader = document.getElementById("loader");
+            setTimeout(() => {
+                loader.classList.add("loader-hidden");
+            }, 2500); 
+        });
+    </script>
 </body>
 </html>
 
