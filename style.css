@@ -40,7 +40,7 @@ body {
 .eye {
     background-color: #ff2e2e;
     box-shadow: 0 0 20px #ff2e2e, 0 0 40px #ff2e2e;
-    border-radius: 50% 0; /* Bentuk mata tajam */
+    border-radius: 50% 0; 
     transform: rotate(45deg);
     opacity: 0;
     animation: eye-glow 2.5s ease-in-out forwards;
